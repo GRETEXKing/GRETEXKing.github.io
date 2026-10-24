@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#1A082F">
+  <title>Activate · GRETEX OS™</title>
+  <link rel="icon" href="/assets/gretex-icon.webp">
+  <link rel="stylesheet" href="/styles/system.css">
+</head>
+<body class="activation-page">
+  <a class="skip" href="#main">Skip to activation</a>
+  <header class="site-header shell">
+    <nav class="nav" aria-label="Activation"><a class="brand" href="/" aria-label="GRETEX OS home"><img src="/assets/gretex-logo.webp" width="132" height="28" alt="GRETEX"></a><span class="nav-note">Verified activation</span></nav>
+    <div class="journey" aria-label="Funnel progress"><div class="journey-step"><b>01</b><span>SELL</span></div><div class="journey-step"><b>02</b><span>PAY</span></div><div class="journey-step" aria-current="step"><b>03</b><span>ACTIVATE</span></div></div>
+  </header>
+  <main id="main" class="activation shell">
+    <section class="activation-state" id="checking" aria-live="polite"><div class="loader" aria-hidden="true"></div><p class="eyebrow">Checking payment</p><h1>Securing your place.</h1><p>We are confirming the transaction directly with the payment provider.</p></section>
+    <section class="activation-state" id="unverified" hidden><p class="eyebrow">Activation paused</p><h1>We still need to verify payment.</h1><p>No access has been unlocked. Return to checkout, or reopen the payment confirmation link from your provider.</p><a class="button" href="/checkout">Return to checkout</a></section>
+    <section class="activation-state" id="verified" hidden><p class="eyebrow">Payment confirmed</p><h1>Welcome in, <span data-buyer-name></span>.</h1><p>Your GRETEX OS purchase is verified. Your access instructions and first implementation path will appear here once fulfillment is connected.</p><div class="first-move"><b>FIRST MOVE</b><span>Choose the one goal that deserves your execution system first.</span></div></section>
+  </main>
+  <footer class="site-footer shell"><span>© 2026 GRETEX</span><span>Activation follows verified payment only.</span></footer>
+  <script type="module" src="/js/welcome.js"></script>
+</body>
+</html>
